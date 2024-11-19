@@ -8,7 +8,7 @@ function validatePIN(pin) {
         return false; // Found a non-digit character
       }
     }
-    return true; // All checks passed
+    return true;
   }
-  return false; // Invalid length
+  return false;
 }
