@@ -1,7 +1,9 @@
-##Question: EvenOrOdd#
+## Question: EvenOrOdd#
+
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
-##Question: Sum of array#
+## Question: Sum of array#
+
 Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
 
 Examples
@@ -18,3 +20,11 @@ Assumptions
 You can assume that you are only given numbers.
 You cannot assume the size of the array.
 You can assume that you do get an array and if the array is empty, return 0.
+
+## Question: You only need one#
+
+You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
+
+Array can contain numbers or strings. X can be either.
+
+Return true if the array contains the value, false if not.
