@@ -28,3 +28,7 @@ You will be given an array a and a value x. All you need to do is check whether 
 Array can contain numbers or strings. X can be either.
 
 Return true if the array contains the value, false if not.
+
+## Question: Convert boolean values to strings 'Yes' or 'No'.
+
+Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
