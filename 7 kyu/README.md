@@ -89,3 +89,13 @@ Examples
 123 is not a strong number, because 1! + 2! + 3! = 9 is not equal to 123, so return "Not Strong !!".
 145 is a strong number, because 1! + 4! + 5! = 1 + 24 + 120 = 145, so return "STRONG!!!!".
 150 is not a strong number, because 1! + 5! + 0! = 122 is not equal to 150, so return "Not Strong !!".
+
+## Question7 : Cat and Mouse - Easy Version
+
+You will be given a string featuring a cat 'C' and a mouse 'm'. The rest of the string will be made up of '.'. The string will start with the cat, and end with the mouse.
+
+You need to find out if the cat can catch the mouse from its current position. The cat can jump over at most three characters. So:
+
+"C.....m" returns "Escaped!" <-- more than three characters between
+
+"C...m" returns "Caught!" <-- as there are three characters between the two, the cat can jump.
