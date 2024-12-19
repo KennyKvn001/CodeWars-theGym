@@ -66,3 +66,25 @@ We need a simple function that determines if a plural is needed or not. It shoul
 You only need to worry about english grammar rules for this kata, where anything that isn't singular (one of something), it is plural (not one of something).
 
 All values will be positive integers or floats, or zero.
+
+## Question9: Square(n)sum
+
+Complete the square sum function so that it squares each number passed into it and then sums the results together.
+
+For example, for [1, 2, 2] it should return 9 because
+1
+2
+
+- 2
+  2
+- 2
+  2
+  =
+  9
+  1
+  2
+  +2
+  2
+  +2
+  2
+  =9.
