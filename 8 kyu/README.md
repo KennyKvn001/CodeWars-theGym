@@ -88,3 +88,14 @@ For example, for [1, 2, 2] it should return 9 because
   +2
   2
   =9.
+
+## Question10: Double Char
+
+Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
+
+Examples (Input -> Output):
+
+- "String" -> "SSttrriinngg"
+- "Hello World" -> "HHeelllloo WWoorrlldd"
+- "1234!\_ " -> "11223344!!\_\_ "
+  Good Luck!
