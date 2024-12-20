@@ -99,3 +99,24 @@ Examples (Input -> Output):
 - "Hello World" -> "HHeelllloo WWoorrlldd"
 - "1234!\_ " -> "11223344!!\_\_ "
   Good Luck!
+
+## Question11: Sum of positive
+
+You get an array of numbers, return the sum of all of the positives ones.
+
+Example
+[1, -4, 7, 12] =>
+1
+
+- 7
+- # 12
+  20
+  1+7+12=20
+  Note
+  If there is nothing to sum, the sum is default to 0.
+
+## Question12: Calculate average
+
+Write a function which calculates the average of the numbers in a given array.
+
+Note: Empty arrays should return 0.
