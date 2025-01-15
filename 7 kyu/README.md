@@ -147,3 +147,9 @@ The given array will, therefore, never be empty.
 Example
 leastLarger( [4, 1, 3, 5, 6], 0 ) => 3
 leastLarger( [4, 1, 3, 5, 6], 4 ) => -1
+
+## Question11 : Numbers in strings
+
+In this Kata, you will be given a string that has lowercase letters and numbers. Your task is to compare the number groupings and return the largest number. Numbers will not have leading zeros.
+
+For example, solve("gh12cdy695m1") = 695, because this is the largest of all number groupings.
