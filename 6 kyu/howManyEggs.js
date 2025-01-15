@@ -12,3 +12,9 @@ function egged(year, span) {
       return 3 * productionPerYear[i % span] * +(i < span);
     }).reduce((prev, curr) => prev+curr);
   }
+
+//   Clever way 
+function egged(year,span) { 
+    const get = (n, s)=> s == 0 ? 0 : n + get(Math.floor( 0.8*n),s-1);
+    return 3 *  get(300, Math.min(span, year));
+  }
