@@ -50,3 +50,24 @@ Note:
 2. Let's assume all calculations are made at the end of the year so don't bother taking eggs laid per month into consideration.
 
 3. Each chicken's egg production goes down by 20% each year, NOT the total number of eggs produced by each 'batch' of chickens. While this might appear to be the same thing, it doesn't once non-integers come into play so take care that this is reflected in your kata!
+
+## Question5: Progressive Spiral Number Branch
+
+Similar setting of the previous, this time you are called to identify in which "branch" of the spiral a given number will end up.
+
+Considering a square of numbers disposed as the 25 items in the previous kata, the branch are numbered as it follows:
+
+17 16 15 14 13 1 1 1 1 0
+18 05 04 03 12 2 1 1 0 0
+19 06 01 02 11 => 2 2 0 0 0
+20 07 08 09 10 2 2 3 3 0
+21 22 23 24 25 2 3 3 3 3
+Meaning that, for example, numbers in the 10-13 range will be in branch 0, numbers in the range 14-17 are inside branch 1, all those nice numbers in the 18-21 can call branch 2 their house and finally the 21-25 team all falls under the 3 branch.
+
+Your function must return the number of the index of each number [1 being a special case you might consider equivalent to being in the first branch, 0], as per examples:
+
+branch(1) === 0 //kind of special case here
+branch(5) === 1
+branch(25) === 3
+branch(30) === 0
+branch(50) === 0
