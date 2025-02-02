@@ -106,6 +106,8 @@ NOTE: All numbers will be whole numbers greater than 0.
 This is version 2 of my 'Write Number in Exanded Form' Kata.
 
 You will be given a number and you will need to return it as a string in expanded form :
+<img width="548" alt="Screenshot 2025-02-02 at 11 22 13" src="https://github.com/user-attachments/assets/38e39dd8-87d1-4bf4-a313-d0989d9b3fbb" />
+
 
 expanded form illustration
 
