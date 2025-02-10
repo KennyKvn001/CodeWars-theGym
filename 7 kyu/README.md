@@ -240,7 +240,7 @@ class Cube is a subclass of class Cuboid. The constructor function of Cube shoul
 
 Hint: Make a call to super, passing in the correct arguments, to make life easier ;)
 
-## question16 : Categorize New Member
+## Question16 : Categorize New Member
 
 The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.
 
@@ -255,3 +255,19 @@ Output will consist of a list of string values (in Haskell and C: Open or Senior
 Example
 input = [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
 output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
+
+## Question17 : Sum of odd numbers
+
+Given the triangle of consecutive odd numbers:
+
+             1
+          3     5
+       7     9    11
+
+13 15 17 19
+21 23 25 27 29
+...
+Calculate the sum of the numbers in the nth row of this triangle (starting at index 1) e.g.: (Input --> Output)
+
+1 --> 1
+2 --> 3 + 5 = 8
