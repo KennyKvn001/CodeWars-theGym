@@ -108,7 +108,6 @@ This is version 2 of my 'Write Number in Exanded Form' Kata.
 You will be given a number and you will need to return it as a string in expanded form :
 <img width="548" alt="Screenshot 2025-02-02 at 11 22 13" src="https://github.com/user-attachments/assets/38e39dd8-87d1-4bf4-a313-d0989d9b3fbb" />
 
-
 expanded form illustration
 
 For example:
@@ -117,3 +116,9 @@ For example:
 1.24 --> "1 + 2/10 + 4/100"
 7.304 --> "7 + 3/10 + 4/1000"
 0.04 --> "4/100"
+
+## Question10 : Count characters in your string
+
+The main idea is to count all the occurring characters in a string. If you have a string like aba, then the result should be {'a': 2, 'b': 1}.
+
+What if the string is empty? Then the result should be empty object literal, {}.
